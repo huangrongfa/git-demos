@@ -2,7 +2,7 @@ window.onload = function () {
   this.console.log('this is hello word.....')
   demo()
   demos()
-  test()
+  tabs(10)
 }
 
 function demo() {
@@ -15,6 +15,8 @@ function demos() {
   }, 2000)
 }
 
-function test() {
-  console.log('学习使用我快乐')
+function tabs(num) {
+  for (var i = 0; i < num; i++) {
+    console.log('输出结果：', i)
+  }
 }
